@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            div
+            {
+                width: 300;
+                height: 300;
+                top: 130;
+                left: 500;
+                margin: auto;
+                border-radius: 50%;
+                position: absolute;
+                background-color:white;
+                border-top: 100px solid #EA4335;
+                border-right: 100px solid #4285F4;
+                border-bottom: 100px solid #34A853;
+                border-left: 100px solid #FBBC05;
+            }
+            #google:before 
+            {
+                position: absolute;
+                content: "";
+                top: 50%;
+                right: -95;
+                transform: translateY(-50%);
+                width: 240;
+                height: 100;
+                background:#4285F4;
+            }
+            #google:after
+            {    
+                content: "";
+                position: absolute;
+                border-top: 200px solid transparent;
+                border-right: 200px solid white;
+                top: -100;
+                right: -100;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="google"> </div>
+    </body>
+</html>

@@ -1,0 +1,336 @@
+.menu
+{
+    list-style-type: none;
+    background-color: black;
+    overflow:auto;
+    margin-bottom: 0px;
+}
+.menu li a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40;
+  }
+.menu li{
+    display: inline;
+    padding-right: 20px;
+}
+.ax_mashin
+{
+    background-color: black;
+    width: 100%;
+}
+.ax_mashin-dovom
+{
+    background-color: black;
+    width: 100%;
+}
+.matn_roye_ax_aval
+{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    background-image: url("ax mashin aval.jpg");
+    color:white;
+    font-size: 80px;
+    height:150px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.our_team
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+}
+.our_team_title
+{
+    text-align: center;
+}
+.our_team_members
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 100px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.members img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.members img:hover{
+    transform: rotate(360deg);
+    transition: transform 5s;
+    
+}
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color:white
+}
+
+.follow-us img{
+    width: 80px;
+    padding: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+.contact .emailtome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    width:70%;
+    height: 400px;
+    box-shadow: 1px 1px 55px 10px rgb(80, 71, 71);
+}
+
+.contact .emailtome input{
+    width: 80%;
+    height: 45px;
+    border: 0;
+    border-radius: 2px;
+    background-color: rgb(71, 71, 69);
+}
+
+.contact .emailtome textarea{
+    width: 80%;
+    border: 0;
+    border-radius: 2px;
+    background-color: rgb(71, 71, 69);
+}
+
+.contact .emailtome button{
+    width: 30%;
+    height: 45px;
+    border: 0;
+    border-radius: 2px;
+}
+.w3css
+{
+    color:white;
+}
+.contact .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-around;
+    width: 20%;
+    height: 250px;
+    
+}
+.sendd
+{
+    background-color: rgb(71, 71, 69);
+}
+
+.matn{
+    background-image: url("ax mashin sevom.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 70px 10px;
+    font-style: italic ;
+}
+
+.matn .item{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    width: 25%;
+    height: 600px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 9px 0px #fff;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 600px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+}
+.description h3{
+    padding: 10px 0;
+    font-size: 50px;
+}
+@media screen and (max-width: 800px) {
+    .menu{
+        font-size: 10px;
+    }
+    .menu li a{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .matn_roye_ax_aval{
+        font-size: 50px;
+    }
+    .our_team{
+        font-size: 10px;
+    }
+    .members{
+      padding: 20px;
+    }
+    .members img{
+        width: 100px;
+        height: 100px;
+    }
+    .matn{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+
+        background-position:center;
+    }
+    .description h3{
+        font-size: 8px;
+        line-height: 0px;
+    }
+    .description{
+        font-size: 12px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .info span{
+        font-size: 10px;
+        width: 100%;
+        height: 0px;
+    }
+    .contact .emailtome{
+        padding-top: 30px;
+        height: 300px;
+    }
+    .contact .emailtome input{
+        width: 60%;
+    }
+    .contact .emailtome textarea
+    {
+        width: 60%;
+    }
+    .contact .emailtome button{
+        width: 20%;
+        height: 30px;
+    }
+    .follow-us{
+        font-size: 12px;
+    }
+    .follow-us img{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu{
+        font-size: 5px;
+    }
+    .menu li a{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .matn_roye_ax_aval{
+        font-size: 30px;
+    }
+    .our_team{
+        font-size: 7px;
+    }
+    .members{
+      padding: 25px;
+      padding: 0px;
+    }
+    .members img{
+        width: 60px;
+        height: 60px;
+    }
+    .matn{
+        background-repeat: no-repeat;
+        background-size: 500px;
+        height: 310px;
+        background-position:center;
+    }
+    .description h3{
+        font-size: 7px;
+        padding-top: 0px;
+        line-height: 0px;
+    }
+    .description{
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .info span{
+        font-size: 8px;
+        width: 100%;
+        height: 0px;
+    }
+    .contact .emailtome{
+        padding-top: 20px;
+        height: 250px;
+    }
+    .contact .emailtome input{
+        width: 50%;
+        font-size: 10px;
+    }
+    .contact .emailtome textarea
+    {
+        width: 55%;
+        font-size: 10px;
+    }
+    .contact .emailtome button{
+        width: 13%;
+        height: 20px;
+    }
+    .follow-us{
+        font-size: 10px;
+    }
+    .follow-us img{
+        width: 50px;
+    }
+    .sendd{
+        font-size: 10px;
+    }
+    .ax_mashin{
+        width: 100%;
+    }
+}

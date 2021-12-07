@@ -1,0 +1,552 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+@font-face {
+    font-family: Nastaligh;
+    src: url('IranNastaliq.ttf');
+}
+body {
+    
+    font-family: Nastaligh;
+    margin: 0;
+    padding: 0;
+}
+.Cset {
+    margin: 20px 150px;
+}
+.Ax-Pizza {
+    background-image: url("image/pizza.png");
+    background-repeat: no-repeat;
+    background-position: -300px 100px;
+}
+.Header-Ozviat {
+    direction: ltr;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 100px;
+}
+.logoSnappFood {
+    max-width: 100px;
+}
+.Header-ozv {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login ,.btnLink ,.btnSabtNam{
+    font-family: Nastaligh;
+    background-color: rgb(255, 0, 166);
+    border: 2px solid rgb(255, 0, 166);
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+.login:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 56, 172);
+    border-color: rgb(255, 56, 172);
+}
+.foroshandegan {
+    font-family: Nastaligh;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Header-Sefaresh .sefaresh {
+    font-size: 46px;
+    width: max-content;
+    display: inline-block;
+}
+@keyframes mymove1 {
+    0% {
+        top: 0px;
+        color: red;
+        opacity: 1;
+    }
+    20% {
+        top: 10px;
+        color: white;
+    }
+    100% {
+        top: 50px;
+        color: white;
+    }
+}
+@keyframes mymove2 {
+    0% {
+        top: 0px;
+        color: red;
+        opacity: 1;
+    }
+    20% {
+        top: 10px;
+        color: white;
+    }
+    100% {
+        top: 50px;
+        color: white;
+    }
+}
+@keyframes mymove3 {
+    0% {
+        top: 0px;
+        color: red;
+        opacity: 1;
+    }
+    20% {
+        top: 10px;
+        color: white;
+    }
+    100% {
+        top: 50px;
+        color: white;
+    }
+}
+@keyframes mymove4 {
+    0% {
+        top: 0px;
+        color: red;
+        opacity: 1;
+    }
+    20% {
+        top: 10px;
+        color: white;
+    }
+    100% {
+        top: 50px;
+        color: white;
+    }
+}
+@keyframes mymove5 {
+    0% {
+        top: 0px;
+        color: red;
+        opacity: 1;
+    }
+    20% {
+        top: 10px;
+        color: white;
+    }
+    100% {
+        top: 50px;
+        color: white;
+    }
+}
+.One-Menu a:hover img {
+    transform: scale(1.5);
+    transition: 1s ease-in-out all;
+}
+.Header-Sefaresh p {
+    font-size: 18px;
+    color: #666666;
+}
+.Header-Sefaresh {
+    display: block;
+    text-align: right;
+    direction: rtl;
+    margin-right: 100px;
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #666666;
+    border-radius: 30px;
+    width: 27%;
+    padding: 10px;
+}
+.address span {
+    color: silver;
+}
+.address p {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color: silver;
+}
+.SearcH {
+    background-color: rgb(255, 0, 166);
+    border-radius: 50%;
+    color: silver;
+    padding: 10px;
+}
+.Two-Menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.Food-Menu {
+    border-radius: 20px;
+    width: 16.66%;
+    display: inline-block;
+}
+
+.Design-Food-Menu {
+    height: 20vh;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+.Design-Food-Menu img {
+    width: 100%;
+    border-radius: 20px;
+    height: 15vh;
+}
+.White-Design-Food-Menu {
+    text-align:center;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    display: flex;
+    width: 30%;
+    padding: 1px 0px;
+    background-color: white;
+    border-bottom-right-radius: 17px;
+    font-size: 20px;
+    border-top-left-radius: 17px;
+}
+.One-Menu {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffa3;
+    padding: 20px 10px;
+    overflow-x: auto;
+
+}
+.One-Menu a img {
+    width: 40%;
+    text-align: center;
+    transform: scale(1);
+    transition: 1s ease-in-out all;
+}
+.One-Menu a {
+    text-align: center;
+    text-decoration: none;
+    color: #666666;
+    min-width: 70px;
+}
+.AboutUs {
+    margin-top: 200px;
+    height: 78vh;
+    background-color: rgb(235, 237, 240);
+    border-bottom-right-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.secNum {
+    margin-top: 50px;
+}
+.phoneNumber {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    padding: 0px;
+
+}
+.phoneNumber input {
+    height: 5vh;
+    margin: 2px;
+    border: 1px solid transparent;
+}
+.imageAbout {
+    width: 45%;
+    position: relative;
+}
+.Snap-about {
+    width: 60%;
+    margin: 20px 150px;
+}
+.Snap-about h1 {
+    font-size: 36px;
+}
+.Snap-about div {
+    font-size: 20px;
+    color: #666666;
+}
+.imageAbout img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 18%;
+}
+.work {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 10px;
+}
+.Snap-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Snap-work h1 {
+    font-size: 36px;
+}
+.Snap-work p {
+    font-size: 24px;
+    color: #666666;
+}
+.line {
+    border-bottom: 2px solid silver;
+}
+.secCity {
+    direction: rtl;
+}
+.City {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+.Iran-City {
+    width: 8.33%;
+    padding: 5px 0px;
+}
+.Iran-City a {
+    text-decoration: none;
+    color: #666666;
+}
+.Footer {
+    display: flex;
+    background-color: #ffe6ff;
+    margin-top: 80px;
+    direction: rtl;
+}
+.Footersec1 {
+    width: 30%;
+}
+.Footersec2 {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footersec2 li {
+    list-style: none;
+    margin: 20px;
+}
+.Footersec2 li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+}
+.Footersec3 {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footersec3 li {
+    list-style: none;
+    margin: 20px;
+}
+.Footersec3 li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+}
+.Footersec4 {
+    width: 22%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.head {
+    display: flex;
+}
+.head img {
+    width: 100px;
+    height: 70px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.icons {
+    margin: 50px 0px;
+}
+.h33
+{
+    color: rgb(255, 0, 166);
+    font-size: 20px;
+}
+.icons button {
+    border-radius: 50%;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 5px 10px 18px white;
+    margin: 10px 3px;
+}
+.icons i {
+    color: #666666;
+}
+@media only screen and (max-width: 1200px) {
+    .Ax-Pizza {
+        background-position: -500px 200px;
+    }
+    .address {
+        width: 40%;
+    }
+    .imageAbout img {
+        left: 40px;
+        bottom: 30%;
+    }
+    .Two-Menu {
+        justify-content: center;
+    }
+    .Food-Menu {
+        width: 20%;
+    }
+    .Snap-about div {
+        width: 85%;
+    }
+    .phoneNumber {
+        display: flex;
+        justify-content: space-between;
+    }
+    .Iran-City {
+        width: 20%;
+    }
+    .icons {
+        margin: 0px;
+    }
+    .icons button {
+        border-radius: 50%;
+        padding: 5px;
+        background-color: white;
+        border: 2px solid white;
+        box-shadow: 5px 10px 18px white;
+        margin: 10px 1px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .Ax-Pizza {
+        background-position: -700px 200px;
+    }
+    .address {
+        width: 50%;
+    }
+    .imageAbout {
+        display: none;
+        width: 0px;
+    }
+    .Snap-about {
+        width: 100%;;
+    }
+    .AboutUs {
+        height: auto;
+    }
+    .phoneNumber {
+        display: flex;
+        justify-content: space-between;
+    }
+    .Snap-about h1 {
+        font-size: 24px;
+    }
+    .Two-Menu {
+        justify-content: center;
+    }
+    .Food-Menu {
+        width: 25%;
+        box-shadow: 0px 2px 10px gray;
+    }
+    .Snap-about div {
+        width: 100%;
+        font-size: 16px;
+    }
+    .Iran-City {
+        width: 25%;
+    }
+    .icons {
+        margin: 0px;
+    }
+    .icons button {
+        border-radius: 50%;
+        padding: 5px;
+        background-color: white;
+        border: 2px solid white;
+        box-shadow: 5px 10px 18px white;
+        margin: 10px 1px;
+    }
+    .Footersec1 {
+        width: 100%;
+    }
+    .Footersec2, .Footersec3 {
+        width: 33%;
+    }
+}
+.temp-button {
+    display: none;
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 22px;
+}
+@media only screen and (max-width: 768px ) {
+    .login {
+        display: none;
+    }
+    .foroshandegan {
+        display: none;
+    }
+    .temp-button {
+        display: inline;
+    }
+    .sefaresh {
+        font-size: 26px !important;
+    }
+.btnLink{
+    width: 35%;
+    font-size: 5px;
+    padding: 0;
+    margin: 0;
+}
+.btnSabtNam{
+width: 80%;
+}
+    .phoneNumber input {
+        width: 65%;
+    }
+    .Header-Sefaresh p {
+        font-size: 16px !important;
+    }
+.address{
+    width: 90%;
+}
+    .Header-Sefaresh {
+        margin-right: 0px;
+    }
+    .Food-Menu {
+        width: 50%;
+    }
+    .Snap-about {
+        margin: 20px;
+    }
+    .Snap-work h1 {
+        font-size: 30px;
+    }
+    .workImg {
+        display: none;
+    }
+    .Iran-City {
+        width: 33%;
+    }
+    .Footer {
+        flex-wrap: wrap;
+    }
+    .phoneNumber {
+        margin: 10px;
+    }
+    .Footersec2, .Footersec3, .Footersec4{
+        width: 100%;
+    }
+    .Footersec4{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background-color: #34495e;
+}
+.wheel{
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+.wheel::after{
+    position:absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: url('./arrow2.png') no-repeat;
+    background-size: 62px;
+    right:-70px;
+    top: 270px;
+    transform: translateY(-50%);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spinner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 8px double rgb(106, 134, 105);
+    overflow: hidden;
+    transition: all ease 5s;
+}
+span{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+}
+.one{
+    clip-path: polygon(0 92%, 100% 50.5%, 0 8%);
+    background-color: rgb(64, 127, 243);
+    top: 120px;
+    left: 0;
+}
+.two{ 
+    clip-path: polygon(100% 92%, 0% 50.5%, 100% 8%);
+    background-color: rgb(252, 17, 17);
+    top: 120px;
+    right: 0;
+}
+.three{
+    clip-path: polygon(50.5% 0%, 8% 100%, 92% 100%);
+    background-color: rgb(217, 255, 0);
+    left: 120px;
+    bottom: 0px;
+}
+.four{
+    clip-path: polygon(50.5% 100%, 92% 0, 8% 0);
+    background-color: rgb(23, 0, 128);
+    left: 120px;
+    top: 0;
+}
+.five{
+    clip-path: polygon(0 92%, 100% 50%, 0 8%);
+    background-color: rgb(255, 196, 0);
+    bottom: 7%;
+    right: 7%;
+    transform: rotate(-135deg);
+}
+.six{
+    clip-path: polygon(0 92%, 100% 50%, 0 8%);
+    background-color: rgb(116, 47, 173);
+    top: 7%;
+    right: 7%;
+    transform: rotate(135deg);
+}
+.seven{
+    clip-path: polygon(0 92%, 100% 50%, 0 8%);
+    background-color: rgb(104, 252, 1);
+    bottom: 7%;
+    left: 7%;
+    transform: rotate(315deg);
+}
+.eight{
+    clip-path: polygon(0 92%, 100% 50%, 0 8%);
+    background-color: rgb(252, 114, 90);
+    top: 7%;
+    left: 7%;
+    transform: rotate(-315deg);
+}
+span strong{
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    background-color: #fff;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 4px );
+    background: none;
+    cursor: pointer;
+}
+.rotatewheel{
+    position:absolute;
+    top:38%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #1361f2;
+    font-weight: bold;
+    cursor: pointer;
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 4px );
+    background: none;
+    outline: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    overflow: hidden;
+
+}
+.rotatewheel:active{
+    width: 120px;
+    height: 120px;
+    font-size: 20px;
+    border: 4px solid #1361f2;
+    overflow: hidden;
+
+}
